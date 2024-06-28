@@ -1,0 +1,203 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Header Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Gradient background for header */
+header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #4a90e2, #50a7c2);
+    color: #fff;
+    padding: 2rem; /* Increased padding for more space */
+    text-align: center;
+    justify-content: center;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.3rem;
+}
+
+/* Navigation Styles */
+nav {
+    background: #333;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4a90e2; /* Light blue on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 2.5rem 2rem; /* Increased padding for sections */
+    margin: 2.5rem 0; /* More spacing between sections */
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+    border-bottom: 3px solid #4a90e2; /* Blue underline */
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+/* About Section Styles */
+#about {
+    background: #e8f4f8; /* Light blue background */
+    color: #333;
+    padding: 2.5rem 2rem; /* Increased padding */
+}
+
+/* Projects Section Styles */
+#projects {
+    background: #f9f9f9; /* Light gray background */
+    color: #333;
+    padding: 2.5rem 2rem; /* Increased padding */
+}
+
+.project {
+    margin-bottom: 2rem; /* Increased space between projects */
+}
+
+.project h3 {
+    color: #4a90e2; /* Blue project titles */
+}
+
+.project p {
+    font-size: 1rem;
+}
+
+/* Skills Section Styles */
+#skills {
+    background: #f9f9f9; /* Light gray background */
+    padding: 2.5rem 2rem; /* Increased padding */
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-category {
+    width: 45%;
+    margin: 1.5rem 0; /* Increased space between skill categories */
+    padding: 1.5rem; /* Increased padding inside skill categories */
+    background: #e8f4f8; /* Light blue background */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-category h3 {
+    color: #4a90e2; /* Blue skill category titles */
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #4a90e2; /* Blue underline */
+    padding-bottom: 0.5rem;
+}
+
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.skill-badges span {
+    background: #4a90e2;
+    color: #fff;
+    padding: 0.7rem 1.2rem; /* Increased padding for skill badges */
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+.skill-badges span:hover {
+    background: #50a7c2;
+}
+
+/* Contact Section Styles */
+#contact {
+    background: #e8f4f8; /* Light blue background */
+    color: #333;
+    padding: 2.5rem 2rem; /* Increased padding */
+}
+
+section#contact p a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+section#contact p a:hover {
+    color: #4a90e2; /* Light blue on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
