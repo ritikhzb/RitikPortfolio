@@ -135,7 +135,7 @@ section h2 {
 }
 
 .skill-category {
-    width: 100%; /* Full width for skill categories on smaller screens */
+    width: 45%;
     margin: 1.5rem 0; /* Increased space between skill categories */
     padding: 1.5rem; /* Increased padding inside skill categories */
     background: #e8f4f8; /* Light blue background */
@@ -202,7 +202,7 @@ footer p {
     font-size: 0.9rem;
 }
 
-/* Media Queries for Phones */
+/* Media Queries for Responsive Design */
 @media only screen and (max-width: 768px) {
     section {
         width: 90%; /* Adjust width for smaller screens */
