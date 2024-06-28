@@ -202,7 +202,7 @@ footer p {
     font-size: 0.9rem;
 }
 
-/* Media Queries */
+/* Media Queries for Phones */
 @media only screen and (max-width: 768px) {
     section {
         width: 90%; /* Adjust width for smaller screens */
@@ -210,5 +210,9 @@ footer p {
 
     .skill-category {
         width: 100%; /* Full width for skill categories on smaller screens */
+    }
+
+    .skills-container {
+        justify-content: center; /* Center skills on smaller screens */
     }
 }
