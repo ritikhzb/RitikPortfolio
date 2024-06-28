@@ -201,3 +201,18 @@ footer p {
     margin: 0;
     font-size: 0.9rem;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    section {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .skills-container {
+        flex-direction: column; /* Stack skills vertically on smaller screens */
+    }
+
+    .skill-category {
+        width: 100%; /* Full width for skill categories on smaller screens */
+    }
+}
